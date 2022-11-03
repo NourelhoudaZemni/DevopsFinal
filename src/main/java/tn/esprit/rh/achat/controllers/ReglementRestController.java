@@ -6,7 +6,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
 import tn.esprit.rh.achat.entities.Reglement;
 import tn.esprit.rh.achat.services.IReglementService;
-
+import org.springframework.web.bind.annotation.PathVariable;
 import java.util.Date;
 import java.util.List;
 
